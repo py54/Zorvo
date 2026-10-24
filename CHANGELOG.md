@@ -2,6 +2,10 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43q) - 2026-10-24
+
+- Fixed: typing in the script editor was laggy (colouring now runs once typing pauses and is much faster on long scripts)
+
 ## Zorvo 0.0.3(26w43p) - 2026-10-24
 
 - Fixed: Testing a game in the editor showed the Python icon; it now shows the Zorvo logo
