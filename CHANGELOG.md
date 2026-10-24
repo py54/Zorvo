@@ -2,6 +2,10 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43f) - 2026-10-24
+
+- Fixed: The X on editor tabs was cut off
+
 ## Zorvo 0.0.3(26w43e) - 2026-10-24
 
 - Removed: Movement system and Window size choices from the New project page
