@@ -2,6 +2,11 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.2(26w43c) - 2026-10-24
+
+- Fixed: File > Updates no longer says Switch back to a full version that is actually NEWER than your snapshot. It says Update to when it moves you forward and Switch back to only when it goes back.
+- Changed: snapshots carry the full version they are built on (after full 0.0.2 the snapshots are 0.0.2(26w44a)...; the next full version is 0.0.3). The two earlier snapshots were renamed 0.0.1(26w43a) and 0.0.1(26w43b).
+
 ## Zorvo 0.0.2 - 2026-10-24
 
 - Added: New project page in the Projects hub: Name (max 32 characters, blank = Project 1), Template (Coin Collector or Empty), Movement system (None, arrow keys/WASD or Platformer) and window size. Terms of Service and Privacy Policy are in the Projects menu too.
@@ -17,7 +22,7 @@ Snapshots (beta) are marked; full releases are the stable versions.
 - Changed: the toolbar is the project name with a small run button beside it; Save and Export are in the File menu. Moving objects in the viewport and painting sprites are much smoother.
 - Fixed: Failed to load Python DLL error after an update (confirmed cause and fix; copies updated from older snapshots may show it once - just open Zorvo again).
 
-## Zorvo 0.0.2(26w43b) - 2026-10-24
+## Zorvo 0.0.1(26w43b) - 2026-10-24
 
 - Removed: the .zarv file format. Games are now shared as a Windows .exe (one file, runs by itself). A Mac .dmg is planned but needs a Mac build.
 - Added: exported games show a short, small "Made with Zorvo" credit with a soft fade before the game starts (click or press a key to skip).
@@ -29,7 +34,7 @@ Snapshots (beta) are marked; full releases are the stable versions.
 - Changed: the toolbar is just a small run button; Save and Export are in the File menu.
 - Fixed: safer restart after an update (clean start environment and a short wait) to avoid the Failed to load Python DLL error.
 
-## Zorvo 0.0.2(26w43a) - 2026-10-24
+## Zorvo 0.0.1(26w43a) - 2026-10-24
 
 - Added: New project page in the hub with settings: Name (max 32 characters, blank = Project 1), Template (Coin Collector or Empty), Movement system (None, arrow keys/WASD, or Platformer with jumping) and window size. A fresh install now starts with no projects.
 - Added: Share your game - Export as .zarv (works on any device with Python and pygame-ce: python MyGame.zarv; on Windows double-click it) or as .exe (Windows, runs by itself with nothing to install). Files are named after your project.
