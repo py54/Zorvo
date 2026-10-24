@@ -2,32 +2,16 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
-## Zorvo 0.1.0(26w43k) - 2026-10-24
+## Zorvo 0.0.3(26w43j) - 2026-10-24
 
 - Added: main.zv always starts the game and cannot be renamed or deleted; other scripts start from code: var e = explorer/scripts/enemy then e.start (also /scripts/enemy, e.running)
 - Added: Properties of a script has 'Start when the game starts' and copy-ready start lines; new scripts start switched off (older projects keep working)
 - Added: hitboxes. Every picture has one, edited in the sprite editor (Hitbox tool, Fit to the drawing, Whole picture); collisions use it, also when sprites are resized or rotated
 - Added: sprite editor gets Line, Rectangle, Ellipse (filled option), mirror drawing, select area + Crop, Trim empty edges, Flip, Turn 90, and Resize with an anchor or stretch; the hitbox follows every crop and resize
-- Added: drag files and folders into folders in the Explorer (script paths update), sub-folders as deep as you like
+- Added: your own folders and files sit under the three built-in ones in the Explorer (the Files section is gone); drag them into folders or onto empty space, sub-folders as deep as you like, right-click empty space for new folders
+- Added: the Mac app can update itself (downloads the Mac build of the release and replaces Zorvo.app)
+- Fixed: code examples in the Docs can be selected with the mouse, and the Copy button sits in the top-right corner of each box
 - Changed: Docs explain several scripts and hitboxes
-
-## Zorvo 0.1.0(26w43j) - 2026-10-24
-
-- Added: import fonts (.ttf, .otf) and sounds (.wav, .ogg, .mp3) with File > Import font or sound; new Files section in the Explorer where you can make your own folders
-- Added: click a sound to play it in Properties, click a font to preview it
-- Added: use files in scripts with explorer/myfonts/font.otf, e.g. play_sound(explorer/sounds/hit.wav) and show_text(id, text, x, y, size, explorer/fonts/f.ttf); also play_music, stop_sounds, stop_music
-- Added: gvar makes a global variable that every script can use, even when written inside a function
-- Added: viewport handles to resize and rotate objects, arrow keys to nudge, Rotation field in Properties; rotation is kept in the game
-- Changed: collisions are exact for rotated sprites; new check_collision_pixel, get_collisions, point_in_sprite, get_rotation
-- Changed: the editor and docs have sections for all of this
-
-## Zorvo 0.1.0 - 2026-10-24
-
-First macOS build of Zorvo.
-
-- Added: macOS version (Apple Silicon): download `Zorvo-0.1.0-mac-arm64.dmg`, open it and drag Zorvo into Applications.
-- Note: the Mac app is not notarized yet. On first launch macOS blocks it: go to System Settings > Privacy & Security and click "Open Anyway".
-- Note: on Mac, exporting games as .exe and self-updating are not available yet (get new versions by downloading the new .dmg). Windows is unchanged: keep using ZorvoSetup.exe from the latest Windows release.
 
 ## Zorvo 0.0.3(26w43i) - 2026-10-24
 
