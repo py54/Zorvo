@@ -2,6 +2,14 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.1.0 - 2026-10-24
+
+First macOS build of Zorvo.
+
+- Added: macOS version (Apple Silicon): download `Zorvo-0.1.0-mac-arm64.dmg`, open it and drag Zorvo into Applications.
+- Note: the Mac app is not notarized yet. On first launch macOS blocks it: go to System Settings > Privacy & Security and click "Open Anyway".
+- Note: on Mac, exporting games as .exe and self-updating are not available yet (get new versions by downloading the new .dmg). Windows is unchanged: keep using ZorvoSetup.exe from the latest Windows release.
+
 ## Zorvo 0.0.3(26w43i) - 2026-10-24
 
 - Added: sprite objects - var hero = workspace.assets.hero.png, then hero.position.x / hero.position.y (read and change), hero.width, hero.rotation; sprite commands accept the object too. Old code keeps working
