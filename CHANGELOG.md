@@ -2,6 +2,14 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.2(26w43b) - 2026-10-24
+
+- Added: .zarv - a portable Zorvo game file. Export > Export as .zarv saves your game as one file named after your project; it is the same file on every operating system and plays in any Zorvo player.
+- Added: on Windows, double-click a .zarv (or drag it onto Zorvo) to play it. The installer and the app set this up; uninstall removes it.
+- Added: Export menu with both options: .zarv (any device) and .exe (Windows, runs by itself with nothing installed). Files are named after your project.
+- Added: Zorvo Player and build_player.py so a player can be built for macOS and Linux (it must be built on those systems).
+- Changed: games now carry a manifest (name, engine version) and give a friendly message if a game needs a newer Zorvo.
+
 ## Zorvo 0.0.2(26w43a) - 2026-10-24
 
 - Added: New project page in the hub with settings: Name (max 32 characters, blank = Project 1), Template (Coin Collector or Empty), Movement system (None, arrow keys/WASD, or Platformer with jumping) and window size. A fresh install now starts with no projects.
