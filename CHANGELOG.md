@@ -2,6 +2,12 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43e) - 2026-10-24
+
+- Removed: Movement system and Window size choices from the New project page
+- Changed: The Empty template is now truly empty (an empty main.zv and an assets folder, no sample sprites or code)
+- Changed: Panel sizes (Explorer, Properties, Terminal) are remembered across all projects
+
 ## Zorvo 0.0.3 - 2026-10-24
 
 - Added: right-click a project on the Projects page to Open, Rename, Show in Explorer, Remove from list or Delete it (F2 renames, Delete deletes). Deleting asks first and refuses anything that is not a Zorvo project.
