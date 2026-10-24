@@ -2,6 +2,21 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.2 - 2026-10-24
+
+- Added: New project page in the Projects hub: Name (max 32 characters, blank = Project 1), Template (Coin Collector or Empty), Movement system (None, arrow keys/WASD or Platformer) and window size. Terms of Service and Privacy Policy are in the Projects menu too.
+- Added: Share your game as a Windows .exe (File > Export): one file, named after your project, that runs by itself. It shows a short, small Made with Zorvo credit first. A Mac .dmg is planned (it needs a Mac build).
+- Added: Zarv# errors have numbers, like Error 20 on line 5: Unknown name. The Docs list what every number means (Error 404 = unknown).
+- Added: repeat 5 times loops, the in operator, list functions remove / pop / contains, set_rotation() and restart_game().
+- Added: the sprite editor handles pixel art up to 4096 x 4096 with zoom, panning, undo / redo, brush sizes and a fast fill. Import an image into a sprite from inside its tab; right-click a picture to duplicate it.
+- Added: Explorer with a small + beside its name (Script or Sprite, with search), right-click to rename or delete, matching icons, folder icons that stay correct; Ctrl+Z / Ctrl+Y undo and redo changes to your scene.
+- Added: multiple scripts (each in its own tab), scripts scroll sideways, View > Word wrap in scripts, Explorer / Properties / Terminal can be hidden.
+- Added: Updating opens its own small window, saves your project, closes Zorvo, installs, and reopens on the Projects page.
+- Added: Uninstall wizard (Windows Settings > Apps).
+- Added: snapshots (beta versions) in File > Updates, named like 0.0.3(26w44a), with the latest version and its changelog.
+- Changed: the toolbar is the project name with a small run button beside it; Save and Export are in the File menu. Moving objects in the viewport and painting sprites are much smoother.
+- Fixed: Failed to load Python DLL error after an update (confirmed cause and fix; copies updated from older snapshots may show it once - just open Zorvo again).
+
 ## Zorvo 0.0.2(26w43b) - 2026-10-24
 
 - Removed: the .zarv file format. Games are now shared as a Windows .exe (one file, runs by itself). A Mac .dmg is planned but needs a Mac build.
