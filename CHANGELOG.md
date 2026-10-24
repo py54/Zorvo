@@ -2,6 +2,10 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43n) - 2026-10-24
+
+- Changed: License and Terms of Service now clearly protect the engine, the Made with Zorvo credit and the Zorvo name, while your games stay yours
+
 ## Zorvo 0.0.3(26w43m) - 2026-10-24
 
 - Added: + menu has Folder; right-click Explorer shows Add with a side menu and icons
