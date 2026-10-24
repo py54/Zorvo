@@ -2,6 +2,11 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43l) - 2026-10-24
+
+- Fixed: exported games and running games show the Zorvo logo in the window instead of the default Python/pygame icon
+- Fixed: File > Updates could stay on 'Checking for updates...' forever on other computers; it now gives up after 20 seconds with a clear message and a Try again button
+
 ## Zorvo 0.0.3(26w43k) - 2026-10-24
 
 - Added: the Mac app can update itself without a new Mac build: every release now carries the engine's compiled code (Zorvo-code.zip) and the Mac app downloads it from File > Updates
