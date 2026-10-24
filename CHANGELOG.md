@@ -2,6 +2,13 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.4 - 2026-10-24
+
+- Added: macOS version (download on chromovia.com)
+- Fixed: update check no longer hangs on Fetching update...
+- Fixed: Python icon when testing a game; test window title ends with Made with Zorvo
+- Fixed: typing in the script editor was laggy
+
 ## Zorvo 0.0.3(26w43q) - 2026-10-24
 
 - Fixed: typing in the script editor was laggy (colouring now runs once typing pauses and is much faster on long scripts)
