@@ -2,6 +2,16 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.1.0(26w43j) - 2026-10-24
+
+- Added: import fonts (.ttf, .otf) and sounds (.wav, .ogg, .mp3) with File > Import font or sound; new Files section in the Explorer where you can make your own folders
+- Added: click a sound to play it in Properties, click a font to preview it
+- Added: use files in scripts with explorer/myfonts/font.otf, e.g. play_sound(explorer/sounds/hit.wav) and show_text(id, text, x, y, size, explorer/fonts/f.ttf); also play_music, stop_sounds, stop_music
+- Added: gvar makes a global variable that every script can use, even when written inside a function
+- Added: viewport handles to resize and rotate objects, arrow keys to nudge, Rotation field in Properties; rotation is kept in the game
+- Changed: collisions are exact for rotated sprites; new check_collision_pixel, get_collisions, point_in_sprite, get_rotation
+- Changed: the editor and docs have sections for all of this
+
 ## Zorvo 0.1.0 - 2026-10-24
 
 First macOS build of Zorvo.
