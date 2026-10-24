@@ -2,6 +2,11 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43k) - 2026-10-24
+
+- Added: the Mac app can update itself without a new Mac build: every release now carries the engine's compiled code (Zorvo-code.zip) and the Mac app downloads it from File > Updates
+- Changed: the Mac installer is one file, Zorvo-mac-arm64.dmg, attached to every release from 0.0.3 on
+
 ## Zorvo 0.0.3(26w43j) - 2026-10-24
 
 - Added: main.zv always starts the game and cannot be renamed or deleted; other scripts start from code: var e = explorer/scripts/enemy then e.start (also /scripts/enemy, e.running)
