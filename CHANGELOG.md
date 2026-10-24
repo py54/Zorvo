@@ -2,6 +2,12 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43h) - 2026-10-24
+
+- Added: autocomplete in the script editor (like VS Code): suggestions appear while you type for keywords, built-in commands (with their arguments), and your own functions and variables
+- Added: Tab or Enter accepts a suggestion, Esc closes it, Ctrl+Space opens it any time
+- Added: typing func, if, while, for or repeat on an empty line and accepting writes the whole block
+
 ## Zorvo 0.0.3(26w43g) - 2026-10-24
 
 - Added: the game window can be resized; the game scales evenly and stays centred (text in the middle stays in the middle), no code changes needed
