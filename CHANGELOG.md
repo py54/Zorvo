@@ -2,6 +2,12 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43g) - 2026-10-24
+
+- Added: the game window can be resized; the game scales evenly and stays centred (text in the middle stays in the middle), no code changes needed
+- Added: Ctrl+F find bar in the script editor (Enter / Shift+Enter / F3, Esc closes)
+- Changed: Terminal colors: errors red, warnings yellow, print output green, commands blue
+
 ## Zorvo 0.0.3(26w43f) - 2026-10-24
 
 - Fixed: The X on editor tabs was cut off
