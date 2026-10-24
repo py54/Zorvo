@@ -2,13 +2,17 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
-## Zorvo 0.1.0 - 2026-10-24
+## Zorvo 0.0.3(26w43i) - 2026-10-24
 
-First macOS build of Zorvo.
+- Added: sprite objects - var hero = workspace.assets.hero.png, then hero.position.x / hero.position.y (read and change), hero.width, hero.rotation; sprite commands accept the object too. Old code keeps working
+- Changed: indentation uses tabs, shown as a small arrow (never saved or copied); old space-indented scripts convert when opened
+- Changed: Docs can be selected and copied (Ctrl+C, right-click, Copy button on every example), have a search box (Ctrl+F) and a cleaner look
 
-- Added: macOS version (Apple Silicon): download `Zorvo-0.1.0-mac-arm64.dmg`, open it and drag Zorvo into Applications.
-- Note: the Mac app is not notarized yet. On first launch macOS blocks it: go to System Settings > Privacy & Security and click "Open Anyway".
-- Note: on Mac, exporting games as .exe and self-updating are not available yet (get new versions by downloading the new .dmg). Windows is unchanged: keep using ZorvoSetup.exe from the latest Windows release.
+## Zorvo 0.0.3(26w43h) - 2026-10-24
+
+- Added: autocomplete in the script editor (like VS Code): suggestions appear while you type for keywords, built-in commands (with their arguments), and your own functions and variables
+- Added: Tab or Enter accepts a suggestion, Esc closes it, Ctrl+Space opens it any time
+- Added: typing func, if, while, for or repeat on an empty line and accepting writes the whole block
 
 ## Zorvo 0.0.3(26w43g) - 2026-10-24
 
