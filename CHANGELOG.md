@@ -2,26 +2,19 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
-## Zorvo 0.0.2(26w43b) - 2026-10-24
-
-- Added: .zarv - a portable Zorvo game file. Export > Export as .zarv saves your game as one file named after your project; it is the same file on every operating system and plays in any Zorvo player.
-- Added: on Windows, double-click a .zarv (or drag it onto Zorvo) to play it. The installer and the app set this up; uninstall removes it.
-- Added: Export menu with both options: .zarv (any device) and .exe (Windows, runs by itself with nothing installed). Files are named after your project.
-- Added: Zorvo Player and build_player.py so a player can be built for macOS and Linux (it must be built on those systems).
-- Changed: games now carry a manifest (name, engine version) and give a friendly message if a game needs a newer Zorvo.
-
 ## Zorvo 0.0.2(26w43a) - 2026-10-24
 
 - Added: New project page in the hub with settings: Name (max 32 characters, blank = Project 1), Template (Coin Collector or Empty), Movement system (None, arrow keys/WASD, or Platformer with jumping) and window size. A fresh install now starts with no projects.
-- Added: Export game as .exe - File > Export game as .exe makes ONE file you can send to friends; they play it without installing anything.
-- Added: Multiple scripts - View > Scripts opens each script as its own tab named after the file; + Script in the Explorer; all scripts run together and errors name the file.
+- Added: Share your game - Export as .zarv (works on any device with Python and pygame-ce: python MyGame.zarv; on Windows double-click it) or as .exe (Windows, runs by itself with nothing to install). Files are named after your project.
+- Added: Terms of Service and Privacy Policy in the Projects menu (Help menu and footer links), not only inside a project.
+- Added: Multiple scripts - View > Scripts opens each script as its own tab; all scripts run together and errors name the file.
 - Added: Explorer and Properties stay visible on every tab; hide or show Explorer, Properties and Terminal from the View menu.
-- Added: custom icons in the same green/gray style (folder and open folder, script, image, object, game) instead of arrows.
+- Added: custom matching icons (folder, open folder, script, image, object, game) instead of arrows.
 - Added: clicking a picture in Assets previews it in Properties and shows it in the Sprites editor.
-- Changed: the Sprites editor scales with the window, its left side scrolls instead of getting cut off, and painting is much smoother (fills gaps in fast strokes).
-- Changed: moving objects in the viewport no longer lags.
-- Added: Uninstall wizard (Windows Settings > Apps).
-- Changed: snapshots are now named like 0.0.2(26w43a).
+- Added: Uninstall wizard (Windows Settings > Apps) and .zarv double-click support on Windows.
+- Added: Zorvo Player and build_player.py.
+- Changed: the Sprites editor scales with the window, its left side scrolls, and painting is much smoother; moving objects in the viewport no longer lags.
+- Changed: snapshots are named like 0.0.2(26w43a).
 
 ## Zorvo 0.0.1 - 2026-10-24
 
