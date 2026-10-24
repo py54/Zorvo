@@ -2,6 +2,10 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43o) - 2026-10-24
+
+- Fixed: Update check no longer hangs on 'Fetching update...' on some networks (GitHub API and release feed are now asked at the same time)
+
 ## Zorvo 0.0.3(26w43n) - 2026-10-24
 
 - Changed: License and Terms of Service now clearly protect the engine, the Made with Zorvo credit and the Zorvo name, while your games stay yours
