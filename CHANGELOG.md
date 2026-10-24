@@ -2,6 +2,15 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.1.0(26w43k) - 2026-10-24
+
+- Added: main.zv always starts the game and cannot be renamed or deleted; other scripts start from code: var e = explorer/scripts/enemy then e.start (also /scripts/enemy, e.running)
+- Added: Properties of a script has 'Start when the game starts' and copy-ready start lines; new scripts start switched off (older projects keep working)
+- Added: hitboxes. Every picture has one, edited in the sprite editor (Hitbox tool, Fit to the drawing, Whole picture); collisions use it, also when sprites are resized or rotated
+- Added: sprite editor gets Line, Rectangle, Ellipse (filled option), mirror drawing, select area + Crop, Trim empty edges, Flip, Turn 90, and Resize with an anchor or stretch; the hitbox follows every crop and resize
+- Added: drag files and folders into folders in the Explorer (script paths update), sub-folders as deep as you like
+- Changed: Docs explain several scripts and hitboxes
+
 ## Zorvo 0.1.0(26w43j) - 2026-10-24
 
 - Added: import fonts (.ttf, .otf) and sounds (.wav, .ogg, .mp3) with File > Import font or sound; new Files section in the Explorer where you can make your own folders
