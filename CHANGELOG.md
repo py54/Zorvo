@@ -2,6 +2,18 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.2(26w43b) - 2026-10-24
+
+- Removed: the .zarv file format. Games are now shared as a Windows .exe (one file, runs by itself). A Mac .dmg is planned but needs a Mac build.
+- Added: exported games show a short, small "Made with Zorvo" credit with a soft fade before the game starts (click or press a key to skip).
+- Added: Zarv# errors now have numbers, like Error 20 on line 5: Unknown name 'speed'. The Docs have an Error Codes list explaining every number (Error 404 = unknown).
+- Added: repeat 5 times loops, the in operator (if x in my_list), list functions remove / pop / contains, set_rotation() and restart_game() - enough to make a game like Flappy Bird.
+- Added: the sprite editor now handles pixel art up to 4096 x 4096 with zoom, panning, undo / redo, brush sizes and a fast fill. New sprites ask for a size.
+- Added: scripts scroll sideways; View > Word wrap in scripts wraps long lines on screen.
+- Added: Explorer: one + button with search, right-click to rename / delete, folder icons fixed, sprites open in their own tab.
+- Changed: the toolbar is just a small run button; Save and Export are in the File menu.
+- Fixed: safer restart after an update (clean start environment and a short wait) to avoid the Failed to load Python DLL error.
+
 ## Zorvo 0.0.2(26w43a) - 2026-10-24
 
 - Added: New project page in the hub with settings: Name (max 32 characters, blank = Project 1), Template (Coin Collector or Empty), Movement system (None, arrow keys/WASD, or Platformer with jumping) and window size. A fresh install now starts with no projects.
@@ -21,7 +33,7 @@ Snapshots (beta) are marked; full releases are the stable versions.
 - Added: Projects hub - a main menu listing every project on this device; opening one opens it in its own window. First project is "My First Zorvo Project".
 - Added: Environment with Explorer, Viewport and Properties; drag objects to change what draws in front.
 - Added: closable Script, Sprites (pixel art) and Docs tabs; one Run/Stop button; Terminal with commands.
-- Added: ZorvoScript language with Tab auto-complete for blocks, key names like arrow_left and w, velocity and gravity, and full docs with examples.
+- Added: Zarv# language with Tab auto-complete for blocks, key names like arrow_left and w, velocity and gravity, and full docs with examples.
 - Added: projects auto-save; closing a project returns to the hub, closing the hub quits.
 - Added: installer with Terms/Privacy acceptance and optional desktop shortcut.
 - Added: File > Updates with snapshots (beta), green progress bar, and a launch popup for new full versions.
