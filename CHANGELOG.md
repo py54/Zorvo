@@ -2,6 +2,14 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43m) - 2026-10-24
+
+- Added: + menu has Folder; right-click Explorer shows Add with a side menu and icons
+- Added: press F3 while testing to show hitboxes
+- Added: License page (Help menu and Projects page)
+- Changed: engine errors no longer show technical details
+- Fixed: update check works on other computers (backup release feed)
+
 ## Zorvo 0.0.3(26w43l) - 2026-10-24
 
 - Fixed: exported games and running games show the Zorvo logo in the window instead of the default Python/pygame icon
