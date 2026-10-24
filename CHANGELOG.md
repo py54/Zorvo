@@ -2,6 +2,12 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3 - 2026-10-24
+
+- Added: right-click a project on the Projects page to Open, Rename, Show in Explorer, Remove from list or Delete it (F2 renames, Delete deletes). Deleting asks first and refuses anything that is not a Zorvo project.
+- Fixed: File > Updates says Update to when a version is newer than yours and Switch back to only when it is older.
+- Changed: snapshots now carry the full version they are built on (after 0.0.3 they are 0.0.3(26w44a) and so on; the next full version is 0.0.4), and snapshots of older versions are never offered.
+
 ## Zorvo 0.0.2(26w43d) - 2026-10-24
 
 - Added: right-click a project on the Projects page to Open, Rename, Show in Explorer, Remove from list, or Delete it (F2 renames, Delete deletes). Renaming also updates the game window title if it still had the old name; deleting asks first and refuses anything that is not a Zorvo project.
