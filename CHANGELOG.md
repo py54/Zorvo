@@ -2,6 +2,11 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.3(26w43p) - 2026-10-24
+
+- Fixed: Testing a game in the editor showed the Python icon; it now shows the Zorvo logo
+- Changed: the test window title ends with 'Made with Zorvo'
+
 ## Zorvo 0.0.3(26w43o) - 2026-10-24
 
 - Fixed: Update check no longer hangs on 'Fetching update...' on some networks (GitHub API and release feed are now asked at the same time)
