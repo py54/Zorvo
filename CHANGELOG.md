@@ -2,6 +2,18 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.6(26w43x) - 2026-10-25
+
+- Added: Circle, Rectangle and Triangle: draw shapes without picture files (their hitboxes fit the shape)
+- Added: Button(text, x, y, w, h) with an on_click(button) function, plus clicked, hovered, enabled and visible
+- Added: key_pressed, key_released, mouse_pressed and mouse_released fire once per press; clicks also work as taps on touch screens
+- Added: show_hitboxes(true) shows hitboxes (red while touching) and logs when things touch; also a project setting
+- Added: destroy_all, sprite_count, exists, and vx, vy, gravity on every object; an old variable can no longer control a new object with the same name
+- Added: play_sound("flap"), "score", "hit", "click" and "pause" are built in, no files needed
+- Added: Project settings is the first item in the Explorer (also View > Project settings); settings that cannot change, like the preset, are greyed out
+- Added: a Game Tools chapter in the Zarv# docs
+- Fixed: updates showed "No changelog provided"; the notes now always show
+
 ## Zorvo 0.0.6(26w43w) - 2026-10-25
 
 - Fixed: Zorvo now uses one taskbar button for the Projects window, the editor and the test game, also when pinned (re-pin Zorvo once if you had it pinned before)
