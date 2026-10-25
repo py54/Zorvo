@@ -2,6 +2,10 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.6(26w43y) - 2026-10-25
+
+- Fixed: Zorvo showed two taskbar buttons (one for the shortcut or pinned icon and one for the open window). Shortcuts now share the window's taskbar ID, also ones you pinned before. If it still shows two once, close Zorvo and open it again from the pinned icon
+
 ## Zorvo 0.0.6(26w43x) - 2026-10-25
 
 - Added: Circle, Rectangle and Triangle: draw shapes without picture files (their hitboxes fit the shape)
