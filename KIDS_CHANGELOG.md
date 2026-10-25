@@ -1,5 +1,15 @@
 # Zorvo Kids changelog
 
+## 0.2.0 - 2026-10-25
+
+- Added: vector drawing. Sprites are now drawings made of shapes and lines (no more pixels), with a huge drawing canvas, pencil, line, box, circle, triangle and star tools, color it, move, erase, undo and redo.
+- Added: drag a picture file (png, jpg, gif, bmp, webp) onto the window to make a new sprite from it, or use Add image. You can draw on top of it.
+- Added: variables. Make your own (like points or lives), then set them, change them, compare them and say them. They show on the stage.
+- Added: 12 sprites to pick from, all redrawn as vectors, and a new example (Count the Clicks).
+- Changed: bricks that are inside a loop now sit inside a clear frame, so you can see they are held by it.
+- Changed: the bricks in each group are organized with headings (Walk, Slide, Jump to a spot, Talk, Size, Loops, Ask a question...).
+- Changed: "pictures" are now called "sprites". Old games open fine: their pixel pictures turn into vector sprites.
+
 ## 0.1.0 - 2026-10-25
 
 The whole app was rebuilt for young kids.
