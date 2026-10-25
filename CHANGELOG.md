@@ -2,6 +2,18 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.6(26w43v) - 2026-10-25
+
+- Added: Assets/player.png (or Explorer/Assets/player.png or /player) with :Clone(x, y) to put a picture into the game from code; :Destroy() removes a copy
+- Added: TextLabel fonts (three built in with bold and italic, import and delete your own), outline, and gradients with several colors (also from code: Properties(outline), Properties(gradient) = Gradient(...))
+- Added: HasHitbox on text and sprites (Properties and in code)
+- Added: Scripts can be switched off in Properties so they never run
+- Added: Scale the game to the window setting in Game properties (on by default)
+- Added: A round rotate arrow on selected objects; resizing a TextLabel now scales its letters
+- Changed: The Workspace no longer has Add object (use Assets/...:Clone or a TextLabel); the starter project clones its pictures in code
+- Changed: The usage log also sends the computer name, how long the app was open and how often features were used (Privacy Policy updated)
+- Fixed: Small startup bugs in the new usage counters
+
 ## Zorvo 0.0.6 - 2026-10-25
 
 - Added: Polygon hitboxes (round or precise shapes) and a smarter Fill in the sprite editor
