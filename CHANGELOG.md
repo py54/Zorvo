@@ -2,6 +2,13 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.5(26w43u) - 2026-10-25
+
+- Removed: Most of the Zarv# language was stripped so it can be rebuilt step by step. What stays: func, return, var, gvar, numbers, text, booleans, nothing, math, comparisons, and/or/not, print, int, float, str, len, RGB, /asset names, workspace + Properties (TextLabel). if, while, for, repeat, lists, Vector2 and all game commands are gone for now (using one gives Error 17)
+- Changed: The starter project script is now tiny; autocomplete only suggests what exists
+- Changed: Update check errors now say exactly why a check failed (GitHub API and release feed), and are added to the usage log
+- Changed: The Zarv# book on chromovia.com matches the new language
+
 ## Zorvo 0.0.5(26w43t) - 2026-10-25
 
 - Added: Sprite editor Fill now stops exactly at lines (fills only the inside of a drawn circle, no leaking through diagonal gaps)
