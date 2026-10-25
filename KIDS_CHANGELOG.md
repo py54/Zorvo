@@ -1,5 +1,14 @@
 # Zorvo Kids changelog
 
+## 0.0.4 - 2026-10-25
+
+- Added: tap a brick to add it. No dragging needed (dragging still works).
+- Added: tap a brick in your pile to try it right away on the stage.
+- Added: the app reads bricks out loud for kids who cannot read yet (Voice button, on by default).
+- Added: number boxes have little arrows to make the number smaller or bigger.
+- Added: a 4 step guide on an empty game.
+- Changed: much bigger bricks, buttons and text, and a bigger stage on big screens.
+
 ## 0.0.3 - 2026-10-25
 
 - Added: an installer (ZorvoKidsSetup.exe) with a desktop shortcut and an uninstall entry in Windows Apps. Updates keep working by themselves.
