@@ -2,6 +2,11 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.5(26w43s) - 2026-10-25
+
+- Changed: Sprite editor side panel redesigned with a 'Sprite Editor' header
+- Added: Every group in the sprite editor (Tools, Color, View, Hitbox, Crop and size, Edit) can be collapsed, so no more scrolling for tools
+
 ## Zorvo 0.0.5 - 2026-10-24
 
 - Added: Zarv# has its own logo (Docs tab header and script icon)
