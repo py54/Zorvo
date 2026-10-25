@@ -2,6 +2,12 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.4(26w43r) - 2026-10-24
+
+- Added: Zarv# has its own logo (Docs tab header and script icon)
+- Added: full Zarv# reference manual online at chromovia.com/docs/zarv
+- Changed: Docs welcome page links to the online manual
+
 ## Zorvo 0.0.4 - 2026-10-24
 
 - Added: macOS version (download on chromovia.com)
