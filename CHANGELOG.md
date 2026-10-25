@@ -2,6 +2,10 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.6(26w43w) - 2026-10-25
+
+- Fixed: Zorvo now uses one taskbar button for the Projects window, the editor and the test game, also when pinned (re-pin Zorvo once if you had it pinned before)
+
 ## Zorvo 0.0.6(26w43v) - 2026-10-25
 
 - Added: Assets/player.png (or Explorer/Assets/player.png or /player) with :Clone(x, y) to put a picture into the game from code; :Destroy() removes a copy
