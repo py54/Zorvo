@@ -2,6 +2,14 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.5 - 2026-10-24
+
+- Added: Zarv# has its own logo (Docs tab header and script icon)
+- Added: drag a picture from Assets onto the viewport to place it in the scene
+- Added: full Zarv# reference manual online at chromovia.com/docs/zarv
+- Changed: the installer and app are now built with a freshly compiled bootloader, so Windows Defender no longer flags them (the old build was blocked on some PCs)
+- Changed: Docs welcome page links to the online manual
+
 ## Zorvo 0.0.4(26w43r) - 2026-10-24
 
 - Added: Zarv# has its own logo (Docs tab header and script icon)
