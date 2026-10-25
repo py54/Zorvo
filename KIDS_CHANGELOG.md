@@ -1,5 +1,12 @@
 # Zorvo Kids changelog
 
+## 0.3.1 - 2026-10-25
+
+- Changed: the tour (Show me how!) has a spotlight now. The whole screen goes dark except the thing to look at or tap. It zooms up, gets a pulsing red circle and a bouncing arrow, and a big speech bubble with a voice explains it. Tapping the lit spot works like tapping the real thing. The name page has it too.
+- Changed: scrolling the bricks and the category buttons is smooth now (it eases, and only the list moves).
+- Fixed: the group headings in the palette (like START THE GAME) were hidden behind the start bricks.
+- Added: when an update has been downloaded while the app is open, a popup asks "A new Zorvo Kids is ready! Update now?" Update now saves your game, closes, installs the update and opens the new version. Later asks again in half an hour.
+
 ## 0.3.0 - 2026-10-25
 
 - Added: Math. Drag a little calculation brick (2 + 3, random, bigger of...) into any number box, even inside another calculation. Tapping a calculation puts it in the chosen brick.
