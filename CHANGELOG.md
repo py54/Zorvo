@@ -2,6 +2,16 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.6(26w43z) - 2026-10-25
+
+- Added: if, elif (or elseif, else if) and else, plus while, for, repeat, break and continue are back
+- Added: lists [1, 2, 3] and dicts {name = "Bo"} with actions like append, pop, sort, keys, has, upper, split and replace
+- Added: math and random functions (abs, min, max, round, sqrt, clamp, lerp, random_int, PI ...), // and ** operators, default values for function values, Vector2
+- Added: type a key name or sound name inside key_pressed(), key_down() and play_sound() and the popup suggests them
+- Added: the Zarv# docs explain every word, symbol and function in detail, with a new flatter design
+- Changed: color previews follow the text instantly while you scroll, and can be turned off in Project settings
+- Changed: mistakes are no longer underlined while you type; they show in the Terminal when you test the game
+
 ## Zorvo 0.0.6(26w43y) - 2026-10-25
 
 - Fixed: Zorvo showed two taskbar buttons (one for the shortcut or pinned icon and one for the open window). Shortcuts now share the window's taskbar ID, also ones you pinned before. If it still shows two once, close Zorvo and open it again from the pinned icon
