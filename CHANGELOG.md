@@ -2,6 +2,24 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.5(26w43t) - 2026-10-25
+
+- Added: Sprite editor Fill now stops exactly at lines (fills only the inside of a drawn circle, no leaking through diagonal gaps)
+- Added: Polygon hitboxes: drag corners, click a line to add a corner, right-click a corner to remove it, plus Round it (ellipse) and Follow the outline buttons
+- Added: TextLabel in the Explorer + menu; label.Properties(text) = "Hi" and label.Properties(color) = RGB(255, 2, 205)
+- Added: RGB(r, g, b) with a color picker square beside it in the code editor
+- Added: /cat_picture and /"cat picture" shortcuts for pictures in Assets (Error 42 if missing)
+- Added: Autocomplete for explorer/ paths and / pictures; accepting a func name writes (); typing ( writes () with the cursor in the middle; Enter after func/if/while/for/repeat writes the end
+- Added: After 5 seconds without typing the editor underlines the line with a mistake in red
+- Added: Anonymous usage log (File > Share anonymous usage data turns it off); Terms and Privacy Policy updated
+- Added: The launch update popup also offers a newer snapshot when you run a snapshot
+- Changed: gvar can only be created at the top of a script and funcs can only read it (Error 19 and 39)
+- Changed: The Docs tab now points to the online Zarv# book; the built-in documentation was removed
+- Changed: Game preview shows the Made with Zorvo credit first; errors only appear in the Terminal
+- Fixed: explorer/assets/... pictures failed to load
+- Fixed: Stopping a game sometimes left its window open
+- Fixed: After an update from inside a project, Zorvo reopens that project
+
 ## Zorvo 0.0.5(26w43s) - 2026-10-25
 
 - Changed: Sprite editor side panel redesigned with a 'Sprite Editor' header
