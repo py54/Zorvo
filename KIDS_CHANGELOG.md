@@ -1,5 +1,19 @@
 # Zorvo Kids changelog
 
+## 0.3.0 - 2026-10-25
+
+- Added: Math. Drag a little calculation brick (2 + 3, random, bigger of...) into any number box, even inside another calculation. Tapping a calculation puts it in the chosen brick.
+- Added: Sensing. Bricks that give back a number: my x, my y, my size, mouse x and y, distance to, timer, score and variables.
+- Added: more bricks (64 now): glide, point, slide left and down, make smaller, repeat until touching, wait for a key, send and get messages, a random number, if numbers compare and more.
+- Added: the backdrop is its own thing. Tap Backdrop (or an empty spot on the stage) to draw it on a wide canvas and give it its own code. It updates right away.
+- Added: variables stay hidden until you show them. Tap the eye next to a variable, or use the new Show variable and Hide variable bricks. Drag a shown variable anywhere on the stage.
+- Added: full screen. The Full screen button (or F11) fills your screen, and Play big runs your game on a stage that fills the whole screen (Esc comes back).
+- Added: you can pick up and move sprites by hand while the game runs.
+- Changed: the tour (Show me how!) was remade. It starts by naming your game and then shows the stage, the game name, the bricks, Go, Stop, Voice, Draw and Home, with a Next button and a voice.
+- Changed: bricks, buttons and sprites are drawn smooth (no jagged edges), and every brick has a name under it in your pile too.
+- Changed: the category list scrolls, the palette has a scroll bar, and the bricks are grouped with headings, so nothing is cut off any more.
+- Changed: the self-update checks every few hours, checks the download, finishes an update that did not get installed the next time you open the app, and says Updated! on the home page.
+
 ## 0.2.0 - 2026-10-25
 
 - Added: vector drawing. Sprites are now drawings made of shapes and lines (no more pixels), with a huge drawing canvas, pencil, line, box, circle, triangle and star tools, color it, move, erase, undo and redo.
