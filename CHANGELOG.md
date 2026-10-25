@@ -2,6 +2,13 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.6(26w43za) - 2026-10-25
+
+- Added: four new starter games that really play: Coin Collector (now with movement, score and best score), Platformer, Duck Jumping and Clicker Game
+- Changed: the update popup at launch now only offers full versions, never snapshots (File > Updates still lists them)
+- Changed: the docs moved to chromovia.com/docs, with light and dark mode, instant chapters and a new look
+- Changed: snapshot letters continue after z with za, zb, zc and so on
+
 ## Zorvo 0.0.6(26w43z) - 2026-10-25
 
 - Added: if, elif (or elseif, else if) and else, plus while, for, repeat, break and continue are back
