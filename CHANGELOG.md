@@ -2,6 +2,12 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.7(26w44e) - 2026-10-26
+
+- Changed: Back to the earlier light look: light panels, the normal menu bar, and Frames, Saved data and Updates open in their own windows again
+- Kept: the (i) help buttons, anchor point, Enabled and AutoStart for scripts, presets with real scenes
+- Added: Visible and Gravity properties for every object (with (i) help)
+
 ## Zorvo 0.0.7(26w44d) - 2026-10-26
 
 - Added: anchor points. Every object has an anchor point (default 0, 0 = top left, so old games are unchanged). x and y are where the anchor is. Set it in Properties (Anchor X, Anchor Y, 0.5 and 0.5 = middle), drag the red dot in the viewport, or write hero.AnchorPoint = Vector2(0.5, 0.5)
