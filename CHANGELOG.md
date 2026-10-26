@@ -2,6 +2,10 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.8(26w44m) - 2026-10-26
+
+Fixed: The Properties panel scrolls when the window is too small, so nothing is cut off.
+
 ## Zorvo 0.0.8(26w44l) - 2026-10-26
 
 Fixed: while forever now works inside a function you call once, like start().
