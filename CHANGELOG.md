@@ -2,6 +2,16 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.7(26w44d) - 2026-10-26
+
+- Added: anchor points. Every object has an anchor point (default 0, 0 = top left, so old games are unchanged). x and y are where the anchor is. Set it in Properties (Anchor X, Anchor Y, 0.5 and 0.5 = middle), drag the red dot in the viewport, or write hero.AnchorPoint = Vector2(0.5, 0.5)
+- Added: animation frames of different sizes stay put around the anchor point, so an animation anchored in the middle plays from the middle
+- Added: every property has an i with a hover explanation
+- Added: scripts have Enabled and AutoStart (greyed out for main.zv). Disabled scripts are greyed out in the Explorer
+- Changed: the starter games come with their own pictures in Assets and their objects already in the Workspace, so they show how a real project is built. Pong is now Paddle Ball
+- Changed: a new dark look for the whole app, a flat menu bar, and Frames, Saved data and Updates open as tabs instead of extra windows
+- Changed: the Properties panel and the Explorer have shorter, clearer texts
+
 ## Zorvo 0.0.7(26w44c) - 2026-10-26
 
 - Added: spritesheets and animations: open a picture, Frames and animations > Frames window to cut it into squares or draw your own frames, give every frame its own hitbox and make animations
