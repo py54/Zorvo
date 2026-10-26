@@ -2,6 +2,18 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.7(26w44f) - 2026-10-26
+
+- Added: Play and Stop right inside the viewport (Play button, F5), plus a Test in window button for final testing
+- Added: drag a picture from Windows onto the Explorer to make a sprite, or onto the drawing editor to put it in
+- Added: a + on the Workspace, Scripts and Assets rows, and Object in the + menu
+- Added: in the drawing editor, drag the selected area and it follows your mouse
+- Changed: hidden objects show faded in the viewport
+- Changed: the Made with Zorvo credit only shows in exported games
+- Changed: Export menu just says .exe and .dmg
+- Fixed: pressing Enter after if ... then now adds end, also inside a func
+- Fixed: less lag when typing code, zooming and moving things in the viewport
+
 ## Zorvo 0.0.7(26w44e) - 2026-10-26
 
 - Changed: Back to the earlier light look: light panels, the normal menu bar, and Frames, Saved data and Updates open in their own windows again
