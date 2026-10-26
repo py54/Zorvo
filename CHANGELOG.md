@@ -2,6 +2,24 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.7(26w44k) - 2026-10-26
+
+- Added: Tween. box:Tween(transparency(1, 0, 1)) changes a property smoothly over time (x, y, width, height, rotation, transparency, saturation, edgeamount, hue), no bounce
+- Added: Edges in Properties: Straight, Indent or Smooth, with an amount slider that only shows for Indent and Smooth
+- Added: objects now turn around their anchor point, and the anchor dots and hitboxes can be shown or hidden above the viewport
+- Added: Zorvo Settings (File menu) for the whole app, with automatic updates for full versions. Project Settings stay for one game
+- Added: sprites have a Filter (Auto, Pixel or Smooth), and vector sprites are saved bigger so they are smooth instead of pixelated
+- Added: vector sprites have a film strip for frames and animations
+- Added: Hue now tints a picture, and the sliders have number boxes so you can type exact values
+- Added: code suggestions for the objects in your Workspace and their properties, and you can click them
+- Added: the thick green line on the loading picture moves while Zorvo starts
+- Changed: the Properties panel updates in place and does not flash, and moving, turning and drawing are smoother
+- Changed: the + list shows everything and greys out what cannot go there, and right-click Add opens the same list
+- Changed: the starter games have comments that explain every part
+- Changed: names are the same in Properties and in code, and a name with a space is written without it
+- Removed: the gravity property and the set_gravity command (the Platformer and Duck Jumping make their own gravity)
+- Fixed: the drawing editor keeps your tool after you draw, and the line you drag looks the same as the finished line
+
 ## Zorvo 0.0.7(26w44j) - 2026-10-26
 
 - Added: new sprites can be Vector (shapes, smooth lines) or Pixel art, you pick when you add one
