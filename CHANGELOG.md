@@ -2,6 +2,25 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.9 - 2026-10-26
+
+Changed: Tabs switch and close instantly, like a browser, without redrawing the whole editor.
+Changed: Zorvo Settings is only in the File menu now, not in the Explorer.
+Changed: The loading picture says Loading your game.
+Changed: The anchor point can only go from -2.5 to 2.5.
+Fixed: Turning a drawing is smooth now (pixel art keeps its hard pixels).
+Fixed: The game keeps its window open even if a frame cannot be drawn, and it uses the frame rate from Project Settings.
+
+### Also new since the last full version (from the snapshots)
+
+**Zorvo 0.0.8(26w44m)**
+Fixed: The Properties panel scrolls when the window is too small, so nothing is cut off.
+
+**Zorvo 0.0.8(26w44l)**
+Fixed: while forever now works inside a function you call once, like start().
+Added: Yellow warnings when a function is made twice, or when on_start or on_update is made in a project that does not call them by itself.
+Fixed: A cropped object no longer uses the hitbox of the whole picture in the Viewport.
+
 ## Zorvo 0.0.8(26w44m) - 2026-10-26
 
 Fixed: The Properties panel scrolls when the window is too small, so nothing is cut off.
