@@ -2,6 +2,12 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.7(26w44h) - 2026-10-26
+
+- Added: folders inside Scripts and Assets; drag a script or sprite onto a folder (or onto the list name to take it out)
+- Added: + on the Scripts and Assets rows can make a folder
+- Fixed: the pinned taskbar icon and the running Zorvo are one icon again (the pinned shortcut now always gets the same ID, and Zorvo Admin and Zorvo Kids shortcuts are left alone)
+
 ## Zorvo 0.0.7(26w44g) - 2026-10-26
 
 - Added: a Loading your app... picture while Zorvo starts, and the restart after an update is faster
