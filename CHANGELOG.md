@@ -2,6 +2,14 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.6(26w44b) - 2026-10-26
+
+- Added: player.Parent = Explorer/scene (or nothing, or another object); children move with their parent
+- Added: Explorer/... in scripts works with any capital letters
+- Added: you can scroll and pan around the viewport (mouse wheel, Shift+wheel, middle or right mouse drag, Home)
+- Fixed: checking for and downloading updates now also works when a firewall, antivirus or proxy blocks Python (falls back to curl and PowerShell)
+- Fixed: downloaded updates are checked and unblocked so Windows does not stop them
+
 ## Zorvo 0.0.6(26w44a) - 2026-10-26
 
 - Fixed: File > Updates showed a blank window when the update check failed; it now shows the reason and a Try again button
