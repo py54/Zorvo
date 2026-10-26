@@ -1,5 +1,12 @@
 # Zorvo Kids changelog
 
+## 0.3.2 - 2026-10-26
+
+- Fixed: updating now also works when a firewall, antivirus or proxy blocks the app's own connection (it falls back to curl and PowerShell, like Zorvo does).
+- Fixed: the update check asks for up to 200 releases and, if the list cannot be reached, looks for the next version by its download address. Before, Zorvo Kids could stop seeing its own updates once Zorvo had published many releases.
+- Fixed: a failed update check or download leaves a short note in zorvokids_update.log (in your temp folder) saying why, instead of failing silently.
+- Fixed: a downloaded update is unblocked so Windows SmartScreen does not stop it.
+
 ## 0.3.1 - 2026-10-25
 
 - Changed: the tour (Show me how!) has a spotlight now. The whole screen goes dark except the thing to look at or tap. It zooms up, gets a pulsing red circle and a bouncing arrow, and a big speech bubble with a voice explains it. Tapping the lit spot works like tapping the real thing. The name page has it too.
