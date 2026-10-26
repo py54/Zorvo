@@ -2,6 +2,18 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.7(26w44i) - 2026-10-26
+
+- Added: vector drawing. Sprites are shapes now (rectangle, ellipse, line, pen, freehand) that you can move, resize and reorder, drawn smooth, no pixels
+- Added: the command bar can change things, like explorer/workspace/object1.gravity = 1
+- Added: drag scripts and sprites into any folder, and a blocked sign shows where you cannot drop
+- Added: drop a picture on an object in the Explorer to give it that texture
+- Changed: Play and Stop are only in the viewport, the top bar and Test in window are gone
+- Changed: a game with an error in its code is reported at once instead of opening the window first
+- Changed: an error while the game runs no longer freezes it
+- Changed: changing Visible or Gravity no longer reloads the whole Properties panel, and Properties show less text
+- Changed: the selection lines in the viewport are solid
+
 ## Zorvo 0.0.7(26w44h) - 2026-10-26
 
 - Added: folders inside Scripts and Assets; drag a script or sprite onto a folder (or onto the list name to take it out)
