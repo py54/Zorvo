@@ -2,6 +2,23 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.7(26w44j) - 2026-10-26
+
+- Added: new sprites can be Vector (shapes, smooth lines) or Pixel art, you pick when you add one
+- Added: a Fill tool, live drawing while you drag, and Move forward 1 / Move back 1 for layers (greyed out when they cannot move)
+- Added: icons on every tab, and when there are too many tabs they show just the icon
+- Added: click a suggestion in the code list to use it, and the list scrolls when it is long
+- Added: dragging an object out of the Workspace shows the blocked sign
+- Changed: Frames, Saved data, Updates and the License pages open as tabs, and renaming is typed in the Explorer, so no extra windows
+- Changed: the Updating window stays on screen with a Loading bar, and Zorvo comes to the front when it restarts
+- Changed: Color is called Hue (Text Color for text), and in code it has no space: hue, textcolor
+- Removed: the gravity property. The Platformer and Duck Jumping presets now do their own gravity in their script
+- Fixed: Transparency and Saturation now show in the viewport
+- Fixed: moving the viewport, scrolling code and the drawing editors are smooth (the scroll bars were slowing them down)
+- Fixed: the viewport can be moved far in every direction, and the side panels in the drawing editors can be resized
+- Fixed: line numbers appear at once when you press Enter
+- Changed: the tab bar is grey instead of blue, and the animation panel is simpler
+
 ## Zorvo 0.0.7(26w44i) - 2026-10-26
 
 - Added: vector drawing. Sprites are shapes now (rectangle, ellipse, line, pen, freehand) that you can move, resize and reorder, drawn smooth, no pixels
