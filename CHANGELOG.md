@@ -2,6 +2,18 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.7(26w44g) - 2026-10-26
+
+- Added: a Loading your app... picture while Zorvo starts, and the restart after an update is faster
+- Added: Texture picker in Properties with a search box, Import image, and drag a picture from Assets onto Properties
+- Added: Transparency and Saturation sliders in Properties (also obj.transparency and obj.saturation in scripts)
+- Added: new objects start as a grey placeholder box with an X
+- Added: a picture follows your mouse while you drag things in the Explorer
+- Changed: naming a new folder, sprite or script is typed right in the Explorer, no popup window
+- Changed: hidden objects are fully hidden in the viewport
+- Changed: the Projects window has a fixed size, because maximized it looked stretched
+- Fixed: the viewport no longer snaps while you move around
+
 ## Zorvo 0.0.7(26w44f) - 2026-10-26
 
 - Added: Play and Stop right inside the viewport (Play button, F5), plus a Test in window button for final testing
