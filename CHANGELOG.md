@@ -2,6 +2,11 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.9(26w44a) - 2026-10-26
+
+Fixed: Testing a game opens in a second or two instead of unpacking Zorvo all over again (it took 10 seconds or more).
+Changed: The loading picture says Loading into Zorvo Engine when you open Zorvo, and Loading your game when you test a game, with dots that count . .. ... .
+
 ## Zorvo 0.0.9 - 2026-10-26
 
 Changed: Tabs switch and close instantly, like a browser, without redrawing the whole editor.
