@@ -2,6 +2,66 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.7 - 2026-10-26
+
+- Fixed: when the update check fails, File > Updates now lists every way it tried and a plain-words reason (antivirus, firewall, proxy, no internet)
+- Fixed: update checks and downloads also work behind firewalls and antivirus (falls back to curl and PowerShell)
+
+### Also new since the last full version (from the snapshots)
+
+**Zorvo 0.0.6(26w44b)**
+- Added: player.Parent = Explorer/scene (or nothing, or another object); children move with their parent
+- Added: Explorer/... in scripts works with any capital letters
+- Added: you can scroll and pan around the viewport (mouse wheel, Shift+wheel, middle or right mouse drag, Home)
+- Fixed: checking for and downloading updates now also works when a firewall, antivirus or proxy blocks Python (falls back to curl and PowerShell)
+- Fixed: downloaded updates are checked and unblocked so Windows does not stop them
+
+**Zorvo 0.0.6(26w44a)**
+- Fixed: File > Updates showed a blank window when the update check failed; it now shows the reason and a Try again button
+
+**Zorvo 0.0.6(26w43za)**
+- Added: four new starter games that really play: Coin Collector (now with movement, score and best score), Platformer, Duck Jumping and Clicker Game
+- Changed: the update popup at launch now only offers full versions, never snapshots (File > Updates still lists them)
+- Changed: the docs moved to chromovia.com/docs, with light and dark mode, instant chapters and a new look
+- Changed: snapshot letters continue after z with za, zb, zc and so on
+
+**Zorvo 0.0.6(26w43z)**
+- Added: if, elif (or elseif, else if) and else, plus while, for, repeat, break and continue are back
+- Added: lists [1, 2, 3] and dicts {name = "Bo"} with actions like append, pop, sort, keys, has, upper, split and replace
+- Added: math and random functions (abs, min, max, round, sqrt, clamp, lerp, random_int, PI ...), // and ** operators, default values for function values, Vector2
+- Added: type a key name or sound name inside key_pressed(), key_down() and play_sound() and the popup suggests them
+- Added: the Zarv# docs explain every word, symbol and function in detail, with a new flatter design
+- Changed: color previews follow the text instantly while you scroll, and can be turned off in Project settings
+- Changed: mistakes are no longer underlined while you type; they show in the Terminal when you test the game
+
+**Zorvo 0.0.6(26w43y)**
+- Fixed: Zorvo showed two taskbar buttons (one for the shortcut or pinned icon and one for the open window). Shortcuts now share the window's taskbar ID, also ones you pinned before. If it still shows two once, close Zorvo and open it again from the pinned icon
+
+**Zorvo 0.0.6(26w43x)**
+- Added: Circle, Rectangle and Triangle: draw shapes without picture files (their hitboxes fit the shape)
+- Added: Button(text, x, y, w, h) with an on_click(button) function, plus clicked, hovered, enabled and visible
+- Added: key_pressed, key_released, mouse_pressed and mouse_released fire once per press; clicks also work as taps on touch screens
+- Added: show_hitboxes(true) shows hitboxes (red while touching) and logs when things touch; also a project setting
+- Added: destroy_all, sprite_count, exists, and vx, vy, gravity on every object; an old variable can no longer control a new object with the same name
+- Added: play_sound("flap"), "score", "hit", "click" and "pause" are built in, no files needed
+- Added: Project settings is the first item in the Explorer (also View > Project settings); settings that cannot change, like the preset, are greyed out
+- Added: a Game Tools chapter in the Zarv# docs
+- Fixed: updates showed "No changelog provided"; the notes now always show
+
+**Zorvo 0.0.6(26w43w)**
+- Fixed: Zorvo now uses one taskbar button for the Projects window, the editor and the test game, also when pinned (re-pin Zorvo once if you had it pinned before)
+
+**Zorvo 0.0.6(26w43v)**
+- Added: Assets/player.png (or Explorer/Assets/player.png or /player) with :Clone(x, y) to put a picture into the game from code; :Destroy() removes a copy
+- Added: TextLabel fonts (three built in with bold and italic, import and delete your own), outline, and gradients with several colors (also from code: Properties(outline), Properties(gradient) = Gradient(...))
+- Added: HasHitbox on text and sprites (Properties and in code)
+- Added: Scripts can be switched off in Properties so they never run
+- Added: Scale the game to the window setting in Game properties (on by default)
+- Added: A round rotate arrow on selected objects; resizing a TextLabel now scales its letters
+- Changed: The Workspace no longer has Add object (use Assets/...:Clone or a TextLabel); the starter project clones its pictures in code
+- Changed: The usage log also sends the computer name, how long the app was open and how often features were used (Privacy Policy updated)
+- Fixed: Small startup bugs in the new usage counters
+
 ## Zorvo 0.0.6(26w44b) - 2026-10-26
 
 - Added: player.Parent = Explorer/scene (or nothing, or another object); children move with their parent
