@@ -2,6 +2,114 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.8 - 2026-10-26
+
+Added: Border system: border, player touches border, border:Keep(player), KeepInside and TouchingBorder.
+Added: while forever do loops, and your own functions instead of on_start and on_update in new projects.
+Added: print, warn and error, and Workspace/name paths (explorer/ is optional, capital letters matter).
+Added: Hitbox points tool in the vector editor for custom hitboxes.
+Added: Quote and bracket auto-pairing, better suggestions, and a tab arrow that can no longer be split.
+Added: Zorvo Settings fonts and colors, Project Settings tab, 40 Google fonts, Crop for objects, more menu items.
+Changed: Drawings stay sharp at any size in the Viewport and the game. No more black bars: the game fills the window.
+Changed: Auto update is off by default. The docs show versions, snapshots and a fuzzy search.
+
+### Also new since the last full version (from the snapshots)
+
+**Zorvo 0.0.7(26w44k)**
+- Added: Tween. box:Tween(transparency(1, 0, 1)) changes a property smoothly over time (x, y, width, height, rotation, transparency, saturation, edgeamount, hue), no bounce
+- Added: Edges in Properties: Straight, Indent or Smooth, with an amount slider that only shows for Indent and Smooth
+- Added: objects now turn around their anchor point, and the anchor dots and hitboxes can be shown or hidden above the viewport
+- Added: Zorvo Settings (File menu) for the whole app, with automatic updates for full versions. Project Settings stay for one game
+- Added: sprites have a Filter (Auto, Pixel or Smooth), and vector sprites are saved bigger so they are smooth instead of pixelated
+- Added: vector sprites have a film strip for frames and animations
+- Added: Hue now tints a picture, and the sliders have number boxes so you can type exact values
+- Added: code suggestions for the objects in your Workspace and their properties, and you can click them
+- Added: the thick green line on the loading picture moves while Zorvo starts
+- Changed: the Properties panel updates in place and does not flash, and moving, turning and drawing are smoother
+- Changed: the + list shows everything and greys out what cannot go there, and right-click Add opens the same list
+- Changed: the starter games have comments that explain every part
+- Changed: names are the same in Properties and in code, and a name with a space is written without it
+- Removed: the gravity property and the set_gravity command (the Platformer and Duck Jumping make their own gravity)
+- Fixed: the drawing editor keeps your tool after you draw, and the line you drag looks the same as the finished line
+
+**Zorvo 0.0.7(26w44j)**
+- Added: new sprites can be Vector (shapes, smooth lines) or Pixel art, you pick when you add one
+- Added: a Fill tool, live drawing while you drag, and Move forward 1 / Move back 1 for layers (greyed out when they cannot move)
+- Added: icons on every tab, and when there are too many tabs they show just the icon
+- Added: click a suggestion in the code list to use it, and the list scrolls when it is long
+- Added: dragging an object out of the Workspace shows the blocked sign
+- Changed: Frames, Saved data, Updates and the License pages open as tabs, and renaming is typed in the Explorer, so no extra windows
+- Changed: the Updating window stays on screen with a Loading bar, and Zorvo comes to the front when it restarts
+- Changed: Color is called Hue (Text Color for text), and in code it has no space: hue, textcolor
+- Removed: the gravity property. The Platformer and Duck Jumping presets now do their own gravity in their script
+- Fixed: Transparency and Saturation now show in the viewport
+- Fixed: moving the viewport, scrolling code and the drawing editors are smooth (the scroll bars were slowing them down)
+- Fixed: the viewport can be moved far in every direction, and the side panels in the drawing editors can be resized
+- Fixed: line numbers appear at once when you press Enter
+- Changed: the tab bar is grey instead of blue, and the animation panel is simpler
+
+**Zorvo 0.0.7(26w44i)**
+- Added: vector drawing. Sprites are shapes now (rectangle, ellipse, line, pen, freehand) that you can move, resize and reorder, drawn smooth, no pixels
+- Added: the command bar can change things, like explorer/workspace/object1.gravity = 1
+- Added: drag scripts and sprites into any folder, and a blocked sign shows where you cannot drop
+- Added: drop a picture on an object in the Explorer to give it that texture
+- Changed: Play and Stop are only in the viewport, the top bar and Test in window are gone
+- Changed: a game with an error in its code is reported at once instead of opening the window first
+- Changed: an error while the game runs no longer freezes it
+- Changed: changing Visible or Gravity no longer reloads the whole Properties panel, and Properties show less text
+- Changed: the selection lines in the viewport are solid
+
+**Zorvo 0.0.7(26w44h)**
+- Added: folders inside Scripts and Assets; drag a script or sprite onto a folder (or onto the list name to take it out)
+- Added: + on the Scripts and Assets rows can make a folder
+- Fixed: the pinned taskbar icon and the running Zorvo are one icon again (the pinned shortcut now always gets the same ID, and Zorvo Admin and Zorvo Kids shortcuts are left alone)
+
+**Zorvo 0.0.7(26w44g)**
+- Added: a Loading your app... picture while Zorvo starts, and the restart after an update is faster
+- Added: Texture picker in Properties with a search box, Import image, and drag a picture from Assets onto Properties
+- Added: Transparency and Saturation sliders in Properties (also obj.transparency and obj.saturation in scripts)
+- Added: new objects start as a grey placeholder box with an X
+- Added: a picture follows your mouse while you drag things in the Explorer
+- Changed: naming a new folder, sprite or script is typed right in the Explorer, no popup window
+- Changed: hidden objects are fully hidden in the viewport
+- Changed: the Projects window has a fixed size, because maximized it looked stretched
+- Fixed: the viewport no longer snaps while you move around
+
+**Zorvo 0.0.7(26w44f)**
+- Added: Play and Stop right inside the viewport (Play button, F5), plus a Test in window button for final testing
+- Added: drag a picture from Windows onto the Explorer to make a sprite, or onto the drawing editor to put it in
+- Added: a + on the Workspace, Scripts and Assets rows, and Object in the + menu
+- Added: in the drawing editor, drag the selected area and it follows your mouse
+- Changed: hidden objects show faded in the viewport
+- Changed: the Made with Zorvo credit only shows in exported games
+- Changed: Export menu just says .exe and .dmg
+- Fixed: pressing Enter after if ... then now adds end, also inside a func
+- Fixed: less lag when typing code, zooming and moving things in the viewport
+
+**Zorvo 0.0.7(26w44e)**
+- Changed: Back to the earlier light look: light panels, the normal menu bar, and Frames, Saved data and Updates open in their own windows again
+- Kept: the (i) help buttons, anchor point, Enabled and AutoStart for scripts, presets with real scenes
+- Added: Visible and Gravity properties for every object (with (i) help)
+
+**Zorvo 0.0.7(26w44d)**
+- Added: anchor points. Every object has an anchor point (default 0, 0 = top left, so old games are unchanged). x and y are where the anchor is. Set it in Properties (Anchor X, Anchor Y, 0.5 and 0.5 = middle), drag the red dot in the viewport, or write hero.AnchorPoint = Vector2(0.5, 0.5)
+- Added: animation frames of different sizes stay put around the anchor point, so an animation anchored in the middle plays from the middle
+- Added: every property has an i with a hover explanation
+- Added: scripts have Enabled and AutoStart (greyed out for main.zv). Disabled scripts are greyed out in the Explorer
+- Changed: the starter games come with their own pictures in Assets and their objects already in the Workspace, so they show how a real project is built. Pong is now Paddle Ball
+- Changed: a new dark look for the whole app, a flat menu bar, and Frames, Saved data and Updates open as tabs instead of extra windows
+- Changed: the Properties panel and the Explorer have shorter, clearer texts
+
+**Zorvo 0.0.7(26w44c)**
+- Added: spritesheets and animations: open a picture, Frames and animations > Frames window to cut it into squares or draw your own frames, give every frame its own hitbox and make animations
+- Added: in code, hero:Play("run"), hero:Stop(), hero.Frame, hero.FrameCount, hero.Playing, hero.Animation (Errors 46 and 47)
+- Added: four new starter games: Highway Run, Space Shooter, Pong and Snake
+- Added: the viewport can zoom (Ctrl + mouse wheel, + and - buttons, Fit to window) and scroll; F4 hides all panels; small screens start maximized
+- Added: Run > Saved data shows everything save_data keeps (test and real), lets you edit, delete or clear it, and can start every test with empty saved data
+- Changed: the docs have a version list, new features say which version they came in, and old commands are marked deprecated with the new way to do it
+- Changed: the docs now show a working example for every key and mouse function
+- Fixed: a stray box in the top left corner appeared when starting the game or pasting code
+
 ## Zorvo 0.0.7(26w44k) - 2026-10-26
 
 - Added: Tween. box:Tween(transparency(1, 0, 1)) changes a property smoothly over time (x, y, width, height, rotation, transparency, saturation, edgeamount, hue), no bounce
