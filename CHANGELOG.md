@@ -2,6 +2,12 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.8(26w44l) - 2026-10-26
+
+Fixed: while forever now works inside a function you call once, like start().
+Added: Yellow warnings when a function is made twice, or when on_start or on_update is made in a project that does not call them by itself.
+Fixed: A cropped object no longer uses the hitbox of the whole picture in the Viewport.
+
 ## Zorvo 0.0.8 - 2026-10-26
 
 Added: Border system: border, player touches border, border:Keep(player), KeepInside and TouchingBorder.
