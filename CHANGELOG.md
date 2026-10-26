@@ -2,6 +2,17 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.7(26w44c) - 2026-10-26
+
+- Added: spritesheets and animations: open a picture, Frames and animations > Frames window to cut it into squares or draw your own frames, give every frame its own hitbox and make animations
+- Added: in code, hero:Play("run"), hero:Stop(), hero.Frame, hero.FrameCount, hero.Playing, hero.Animation (Errors 46 and 47)
+- Added: four new starter games: Highway Run, Space Shooter, Pong and Snake
+- Added: the viewport can zoom (Ctrl + mouse wheel, + and - buttons, Fit to window) and scroll; F4 hides all panels; small screens start maximized
+- Added: Run > Saved data shows everything save_data keeps (test and real), lets you edit, delete or clear it, and can start every test with empty saved data
+- Changed: the docs have a version list, new features say which version they came in, and old commands are marked deprecated with the new way to do it
+- Changed: the docs now show a working example for every key and mouse function
+- Fixed: a stray box in the top left corner appeared when starting the game or pasting code
+
 ## Zorvo 0.0.7 - 2026-10-26
 
 - Fixed: when the update check fails, File > Updates now lists every way it tried and a plain-words reason (antivirus, firewall, proxy, no internet)
