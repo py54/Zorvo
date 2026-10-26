@@ -2,6 +2,10 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.6(26w44a) - 2026-10-26
+
+- Fixed: File > Updates showed a blank window when the update check failed; it now shows the reason and a Try again button
+
 ## Zorvo 0.0.6(26w43za) - 2026-10-25
 
 - Added: four new starter games that really play: Coin Collector (now with movement, score and best score), Platformer, Duck Jumping and Clicker Game
