@@ -2,6 +2,13 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.10(26w44a) - 2026-10-27
+
+Added: Typing func suggests the hooks on_start, on_update and on_click.
+Added: The Properties panel scrolls sideways when it is too narrow.
+Changed: A func can now change and make a gvar.
+Fixed: Text labels stay sharp when you zoom the viewport, and zoomed pictures look smooth unless they are pixel art.
+
 ## Zorvo 0.0.10 - 2026-10-26
 
 Changed: The i next to a suggestion opens the exact docs section for that word, like the Variables section for var.
