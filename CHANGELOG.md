@@ -2,6 +2,16 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.10(26w44b) - 2026-10-27
+
+Changed: Zorvo Settings is now a popup everywhere, with the license, terms and privacy links at the top, Latest Release / Latest Snapshot (with the beta warning) and the auto-update options.
+Changed: Check for updates now lives only in Zorvo Settings.
+Changed: The Projects screen has the same menu bar as the editor; things that need a project are greyed out. Export as file is only usable inside a project.
+Changed: The Projects screen looks good in a big window and in full screen (F11).
+Fixed: The Projects screen closes right away when you open a project.
+Fixed: The mouse turns into a text cursor in the script editor and Terminal.
+Fixed: hitboxes.json and filters.json are hidden from the Explorer, the Terminal and scripts.
+
 ## Zorvo 0.0.10(26w44a) - 2026-10-27
 
 Added: Typing func suggests the hooks on_start, on_update and on_click.
