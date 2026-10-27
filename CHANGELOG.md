@@ -2,6 +2,15 @@
 
 Snapshots (beta) are marked; full releases are the stable versions.
 
+## Zorvo 0.0.9(26w44b) - 2026-10-26
+
+Added: wait(seconds) for while forever and while true loops, and Error 51 for a while true loop that never rests or ends.
+Added: Suggestions use a smart search (left finds arrow_left, explroer finds explorer), show each name once, and have an i that opens the docs page.
+Changed: The hooks on_start, on_update and on_click work again and are suggested after func. Starter games use them. The old Project Settings choice is gone.
+Changed: Playing a game opens it in its own window again. Playing inside the Viewport is a choice in Zorvo Settings.
+Changed: The docs show the versions once on top of each subcategory, faint, and deprecated things show a range like 0.0.1-0.0.8.
+Fixed: If the game crashes, what Python says is shown in the Terminal.
+
 ## Zorvo 0.0.9(26w44a) - 2026-10-26
 
 Fixed: Testing a game opens in a second or two instead of unpacking Zorvo all over again (it took 10 seconds or more).
